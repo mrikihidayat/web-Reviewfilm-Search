@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Link ke CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>VocFilm</title>
+    <link rel="icon" href="img/movie.png" type="png/image" sizes="200x200">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo-nav">
+          <h1>Voc<span>Film</span></h1>
+        </div>
+
+        <div id="menu-icon" class="menu-icon">
+            <i data-feather="menu"></i>
+        </div>
+
+        <ul id="menu-list" class="hidden">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#Trending">Trending</a>
+            </li>
+            <li>
+                <a href="#Latest">Latest</a>
+            </li>
+            <li>
+                <a href="#" class="navbar-none">Login</a>
+            </li>
+            <li>
+                <a href="#" class="navbar-none">Sign Up</a>
+            </li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="login">Login</button>
+            <button class="signup">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <div class="tampilan-awal" id="home">
+            <h2>WELCOME</span></h2>
+            <p>Please search for the film you want to review<p>
+
+            <section class="search_section">
+             <div class="search">
+                <form id="searchFilm">
+                    <input id="searchFilmTitle" type="text" placeholder="Please search...">
+                </form>
+             </div>
+            </section>
+        </div>
+     
+        <section class="role">
+            <h3 class="title-movie" id="Trending">Trending</h3>
+            <div class="movies">
+                <div class="movie">
+                    <img src="img/Haikyu.jpeg" alt="Haikyu!! The Dumpster Battle">
+                    <p>Haikyu!! The Dumpster Battle</p>
+                </div>
+                <div class="movie">
+                    <img src="img/Kamen.jpeg" alt="Kamen Rider Black Sun">
+                    <p>Kamen Rider Black Sun</p>
+                </div>
+                <div class="movie">
+                    <img src="img/KKN.jpeg" alt="KKN Di Desa Penari">
+                    <p>KKN Di Desa Penari</p>
+                </div>
+                <div class="movie">
+                    <img src="img/Avengers.jpeg" alt="Avengers Endgame">
+                    <p>Avengers Endgame</p>
+                </div>
+                <div class="movie">
+                    <img src="img/Deadpool.jpeg" alt="Deadpool & Wolverine">
+                    <p>Deadpool & Wolverine</p>
+                </div>
+                <div class="movie">
+                    <img src="img/Harry Potter.jpg" alt="Harry Potter And The Chamber of Secrets">
+                    <p>Harry Potter And The Chamber of Secrets</p>
+                </div>
+            </div>
+
+            <h3 class="title-movie" id="Latest">Latest</h3>
+            <div class="movies">
+                <div class="movie">
+                    <img src="img/Suzume.jpg" alt="Haikyu!! The Dumpster Battle">
+                    <p>Suzume no Tojimari</p>
+                </div>
+                <div class="movie">
+                    <img src="img/onePiece.jpg" alt="KKN Di Desa Penari">
+                    <p>One Piece</p>
+                </div>
+                <div class="movie">
+                    <img src="img/naruto.jpg" alt="Avengers Endgame">
+                    <p>Naruto</p>
+                </div>
+                <div class="movie">
+                    <img src="img/dragonBall.jpg" alt="Avengers Endgame">
+                    <p>Dragon Ball</p>
+                </div>
+                <div class="movie">
+                    <img src="img/sekawanLimo.jpeg" alt="Deadpool & Wolverine">
+                    <p>sekawan limo</p>
+                </div>
+                <div class="movie">
+                    <img src="img/doraemonMovie.jpeg" alt="Harry Potter And The Chamber of Secrets">
+                    <p>Doraemon Movie</p>
+                </div>
+            </div>
+            <h3 class="hasil-search">Hasil</h3>
+            <div class="hasil">
+
+            </div>
+        </section>             
+</main>
+
+     <!--foother-->
+    <footer>
+        <div class="socials">
+          <a href="#"><i data-feather="instagram"></i></a>
+          <a href="#"><i data-feather="twitter"></i></a>
+          <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+    
+        <div class="credit">
+          <p>Created by <a href="">m.rikihidayat</a>.&copy; 2024.</p>
+        </div>
+    </footer>
+
+<!-- Icon -->
+<script>
+    feather.replace();
+</script>
+
+<!-- JS -->
+<script src="main.js"></script>
+
+</body>
+</html>
